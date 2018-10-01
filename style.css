@@ -1,0 +1,134 @@
+body
+{
+	background-color:#C85959
+
+}
+
+h1{
+	width: 60%;
+	text-align: center;
+}
+
+p{
+	color:black;
+	font-size: 20px;
+}
+
+a{
+	width: 70px;
+	display: block;
+	border: 2px;
+	padding:10px;
+	text-decoration: none;
+}
+
+.margenes
+{
+	height: 350px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+	margin-left: 150px;
+
+}
+
+.fdoAmarillo
+{
+		background-color: #FFCC33;
+
+}
+.fdoGris
+{
+		background-color:#585858
+}
+.fdoOscuro
+{
+		background-color: #333333;
+}
+
+
+.fdoRojo
+{
+		background-color:#990000
+}
+.fdoRosa
+{
+		background-color:#C85959
+}
+.txtAmarillo
+{
+		color: #FFCC33;
+}
+.txtGris
+{
+	color: #585858;
+}
+.txtOscuro
+{
+	color: #333333;
+}
+.txtRojo
+{
+	color: #990000;
+}
+.txtRosa
+{
+	color: #C85959;
+}
+
+.columna
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+.fila
+{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.botones
+{
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+ul{
+	list-style: none;
+	text-align: center;
+}
+li {
+	background-color: #585858;
+	font-size: 22px;
+	color:red;
+	float: left;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid blue;
+	margin: 3px;
+	padding: 10px
+}
+
+.material-icons {
+	font-size: 50px;
+}
+
+
+@media only screen and (max-width: 500px)
+{
+	#imagenPrincipal{
+height: 200px
+	}
+}
