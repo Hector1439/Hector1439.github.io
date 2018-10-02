@@ -1,6 +1,6 @@
 body
 {
-	background-color:rgb(231, 151, 151)
+	background-color:#C85959
 
 }
 
@@ -10,8 +10,8 @@ h1{
 }
 
 p{
-	color: aquamarine;
-	font-size: 25px;
+	color:black;
+	font-size: 20px;
 }
 
 a{
@@ -19,8 +19,7 @@ a{
 	display: block;
 	border: 2px;
 	padding:10px;
-
-	color: aquamarine;
+	text-decoration: none;
 }
 
 .margenes
